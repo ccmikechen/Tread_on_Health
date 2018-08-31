@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2499C2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="個人資料"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/name_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/name_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="姓名"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textSize="25sp"
+                android:ems="10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/id_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Line"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/line_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:ems="10" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gender_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/gender_lebel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="性別"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="25sp" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/height_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/height_lebel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="身高"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:ems="10" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/weight_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/weight_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="體重"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:ems="10" />
+            
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

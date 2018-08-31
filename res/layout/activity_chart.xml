@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bluetooth.le.ChartActivity"
+    android:id="@+id/chart_layout">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="0.12"
+            android:background="#2499C2"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="壓力分佈"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:id="@+id/sensor_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/pic12"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/sensor_sub_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/msg_2_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:background="#FFFFFF"
+            android:gravity="center_vertical|center_horizontal"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

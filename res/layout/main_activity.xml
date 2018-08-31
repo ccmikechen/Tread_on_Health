@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2499C2"
+    android:orientation="vertical"
+    tools:context="edu.kuasmiswmc.rootlife.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/bkpic_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pic06"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/up_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" >
+
+                        <ImageView
+                            android:id="@+id/btn_more"
+                            android:layout_width="40dp"
+                            android:layout_height="25dp"
+                            android:layout_margin="15dp"
+                            android:src="@drawable/pic02" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="right" >
+
+                        <ImageView
+                            android:id="@+id/jump_btn"
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="3.0dip"
+                            android:paddingRight="15dp"
+                            android:src="@drawable/pic10" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/middle_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_Steps"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#FFFFFF"
+                android:textSize="80sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_State"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="50sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/power_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="10" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:src="@drawable/pic09" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <ProgressBar
+                    android:id="@+id/power_bar"
+                    style="@style/CustomProgressBar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:max="100"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:progress="0" />
+
+            </LinearLayout>
+            
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

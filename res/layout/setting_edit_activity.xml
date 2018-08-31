@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.12"
+        android:background="#2499C2"
+        android:text="title"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal|center_vertical" >
+
+        <EditText
+            android:id="@+id/EditText02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:ems="10"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_weight="0.03"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edit_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:text="   儲存   " />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.68"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal|center_vertical" >
+
+        <EditText
+            android:id="@+id/EditText01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:ems="10"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</LinearLayout>
